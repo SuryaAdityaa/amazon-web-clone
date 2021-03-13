@@ -13,7 +13,6 @@ function Checkout() {
                 <div className="checkout__list">
                     <h3>{user?.email}</h3>
                     <h2 className="checkout__title">Your shopping basket</h2>
-                    
                     {basket.map(item => 
                         <CheckoutProduct
                             id={item.id}
